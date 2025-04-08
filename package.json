@@ -40,5 +40,8 @@
     "extends": [
       "plugin:storybook/recommended"
     ]
+  },
+  "dependencies": {
+    "gh-pages": "^6.3.0"
   }
 }
