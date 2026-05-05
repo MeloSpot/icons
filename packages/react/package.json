@@ -1,6 +1,6 @@
 {
   "name": "@melospot/icons-react",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "sideEffects": false,
   "description": "MeloSpot Icons package for React with modern features",
   "license": "ISC",

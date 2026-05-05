@@ -14,7 +14,7 @@ const CircleDashed: FunctionalComponent<SVGAttributes> = (props, context) => {
     'stroke-linejoin': 'round',
     ...attrs,
     ...props,
-    innerHTML: "<g clip-path='url(#clip0_3387_80)'><circle cx='12' cy='12' r='9' stroke='black' stroke-width='2' stroke-dasharray='4 4'/></g><defs><clipPath id='clip0_3387_80'><rect width='24' height='24' fill='white'/></clipPath></defs>"
+    innerHTML: "<g clip-path='url(#clip0_3387_80)'><circle cx='12' cy='12' r='9' stroke='black' stroke-width='2' stroke-dasharray='4 4'/></g><defs><clipPath id='clip0_3387_80'><rect width='24' height='24' fill='white'/></clipPath></defs>"
   });
 };
 

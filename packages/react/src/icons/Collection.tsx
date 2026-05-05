@@ -1,0 +1,5 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+import { Ref, forwardRef } from "react";
+export const Collection = React.memo(React.forwardRef((props: SVGProps<SVGSVGElement>, ref: Ref<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" strokeLinecap="round" strokeLinejoin="round" shapeRendering="geometricPrecision" ref={ref} {...props}><mask id="a" fill="#fff"><rect width={20} height={12} x={2} y={9} rx={1} /></mask><rect width={20} height={12} x={2} y={9} stroke="currentColor" strokeWidth={4} mask="url(#a)" rx={1} /><rect width={2} height={16} x={20} y={6} fill="#141313" rx={0.5} transform="rotate(90 20 6)" /><rect width={2} height={12} x={18} y={3} fill="#141313" rx={0.5} transform="rotate(90 18 3)" /></svg>));
+Collection.displayName = "Collection";

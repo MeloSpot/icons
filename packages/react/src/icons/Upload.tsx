@@ -1,0 +1,5 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+import { Ref, forwardRef } from "react";
+export const Upload = React.memo(React.forwardRef((props: SVGProps<SVGSVGElement>, ref: Ref<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" strokeLinecap="round" strokeLinejoin="round" shapeRendering="geometricPrecision" ref={ref} {...props}><g fill="#141313" clipPath="url(#a)"><path d="M3 22a1 1 0 1 1 0-2h18a1 1 0 1 1 0 2z" /><path d="M20 15a1 1 0 1 1 2 0v6a1 1 0 1 1-2 0zM2 15a1 1 0 1 1 2 0v6a1 1 0 1 1-2 0zm10.95 2a1 1 0 0 1-2 0V3a1 1 0 1 1 2 0z" /><path d="M15.243 4.879a1 1 0 1 1-1.415 1.414l-2.474-2.475a.5.5 0 0 1 0-.707l.707-.707a.5.5 0 0 1 .707 0z" /><path d="M11.182 2.404a.5.5 0 0 1 .707 0l.707.707a.5.5 0 0 1 0 .707l-2.475 2.475a1 1 0 1 1-1.414-1.414z" /></g><defs><clipPath id="a"><path fill="#fff" d="M0 0h24v24H0z" /></clipPath></defs></svg>));
+Upload.displayName = "Upload";

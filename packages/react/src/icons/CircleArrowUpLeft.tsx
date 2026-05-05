@@ -1,0 +1,5 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+import { Ref, forwardRef } from "react";
+export const CircleArrowUpLeft = React.memo(React.forwardRef((props: SVGProps<SVGSVGElement>, ref: Ref<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" strokeLinecap="round" strokeLinejoin="round" shapeRendering="geometricPrecision" ref={ref} {...props}><g clipPath="url(#a)"><path fill="#141313" d="M16.235 14.81a1 1 0 0 1-1.414 1.414L7.75 9.155A1 1 0 0 1 9.164 7.74z" /><path fill="#141313" d="M12.078 7.482a1 1 0 1 1 0 2h-3.5a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5z" /><path fill="#141313" d="M7.457 8.604a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v3.5a1 1 0 0 1-2 0z" /><circle cx={12} cy={12} r={9} stroke="currentColor" strokeWidth={2} /></g><defs><clipPath id="a"><path fill="#fff" d="M0 0h24v24H0z" /></clipPath></defs></svg>));
+CircleArrowUpLeft.displayName = "CircleArrowUpLeft";
